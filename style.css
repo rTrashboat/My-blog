@@ -1,0 +1,54 @@
+body{
+	background: lightyellow;
+	background-image: url(backgroundimage.png);
+	background-size: 20%;
+	/*animation: openinganimation;
+	animation-iteration-count: 1;
+	animation-duration: 3s;
+	*/
+}
+
+.font_cool {
+	text-align: center;
+	color: royalblue;
+	font-family: pacifico;
+	-webkit-text-stroke: 0.00001px #000;
+	animation: openinganimation;
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	#position: fixed;
+
+}
+.font_cool1 {
+	font-family: 'Lobster', sans-serif;
+	text-align: center;
+	color: mediumpurple;
+	font-size: xx-large;
+	-webkit-text-stroke: 1px #000;
+	animation: openinganimation;
+	animation-iteration-count: 1;
+	animation-duration: 3s;
+
+}
+
+@keyframes openinganimation{
+	from {margin-left: 100%;}
+	to{margine-left: 0%;}
+}
+
+.game-images{
+	border-radius: 10%;
+	width: 20%;
+	display: inline-block;
+	margin-left: 5%;
+	animation: openinganimation;
+	animation-iteration-count: 1;
+	animation-duration: 3s;
+}
+
+#PAF{
+	width: 15%;
+}
+#whirly{
+	width: 17.5%;
+}
